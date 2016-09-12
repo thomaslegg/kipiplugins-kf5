@@ -1,0 +1,19 @@
+--- CMakeLists.txt.orig	2016-08-08 17:19:24 UTC
++++ CMakeLists.txt
+@@ -225,7 +225,7 @@ if(KF5Kipi_FOUND)
+             configure_file(${CMAKE_CURRENT_SOURCE_DIR}/cmake/templates/kipi-plugins.lsm.cmake.in ${CMAKE_CURRENT_BINARY_DIR}/kipi-plugins.lsm)
+         endif()
+ 
+-        add_subdirectory(common)
++        link_directories(${PC_KIPI_LIBDIR})
+         add_subdirectory(printimages)
+         add_subdirectory(kmlexport)
+         add_subdirectory(sendimages)
+@@ -262,6 +262,7 @@ if(KF5Kipi_FOUND)
+ 
+     endif()
+ 
++    CONFIGURE_FILE(${CMAKE_CURRENT_SOURCE_DIR}/common/libkipiplugins/tools/kpversion.h.cmake.in ${CMAKE_CURRENT_BINARY_DIR}/common/libkipiplugins/kpversion.h)
+ else()
+ 
+     message(STATUS "")
