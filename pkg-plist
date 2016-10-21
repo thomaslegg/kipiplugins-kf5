@@ -1,5 +1,5 @@
 %%QT_LIBDIR%%/%%QT_LIBDIR%%KF5kipiplugins.so
-%%QT_LIBDIR%%/%%QT_LIBDIR%%KF5kipiplugins.so.5.1.0
+%%QT_LIBDIR%%/%%QT_LIBDIR%%KF5kipiplugins.so.5.2.0
 %%QT_PLUGINDIR%%/kipiplugin_dropbox.so
 %%QT_PLUGINDIR%%/kipiplugin_facebook.so
 %%QT_PLUGINDIR%%/kipiplugin_flashexport.so
