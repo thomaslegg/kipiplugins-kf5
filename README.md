@@ -3,5 +3,3 @@ This is a FreeBSD port skeleton for kipiplugins-kf5 built from digikam 5.0.1 to 
 This port supercedes kipi-plugins-kde4. It replaces graphics/libkipiplugins and graphics/kipi-plugin-*
 
 This bundle installs kipi plugins for dropbox, facebook, flashexport, flickr, googleservices, imageshack, imgur, kmlexport, piwigo, printimages, rajce, remotestorage, sendimages, smug, yandexfotki.
-
-Next project is to update net/libmediawiki and net/libkvkontakte ports and will enable options to build these two plugins as well.

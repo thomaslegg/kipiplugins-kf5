@@ -8,7 +8,7 @@ CATEGORIES=	graphics kde
 MAINTAINER=	kde@FreeBSD.org
 COMMENT=	KDE 5 kipi graphics plugins 
 
-DIGIKAM_VER=	5.2.0
+DIGIKAM_VER=	5.3.0
 MASTER_SITES=	KDE/stable/digikam
 DISTNAME=	digikam-${DIGIKAM_VER}
 
